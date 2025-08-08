@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+@keyframes icon-entry {
+  0% {
+    opacity: 0;
+    transform: translateY(100px) scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes backgroundGlow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-glow {
+  background-size: 400% 400%;
+  animation: backgroundGlow 15s ease infinite;
+}
+
+ @keyframes showRay1832 {
+          0% { transform: scale(0); }
+          100% { transform: scale(1); }
+        }
+      
+
+        html {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+@keyframes arcCurveSlide {
+  0% {
+    transform: translate(0px, 0px) rotate(-60deg) scale(0.8);
+    opacity: 0;
+  }
+
+  50% {
+    transform: translate(calc(var(--x) * 0.6), calc(var(--y) * 0.6)) rotate(20deg) scale(1.1);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translate(var(--x), var(--y)) rotate(0deg) scale(1);
+    opacity: 1;
+  }
+}
+
