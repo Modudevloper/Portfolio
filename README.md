@@ -3,3 +3,9 @@ This repo contains my personal portfolio website source code. It showcases my sk
 
 
 ![Project Screenshot](src/assets/Image/Portfolio1.png)
+
+![Project Screenshot](src/assets/Image/about.png)
+
+![Project Screenshot](src/assets/Image/Project.png)
+
+![Project Screenshot](src/assets/Image/Contact.png)
